@@ -1,10 +1,11 @@
 import "./App.css";
 import CountDownTimer from "./components/countdown-timer";
+import Pagination from "./components/paginate-data";
 
 let topics = [
   { title: "Form Validation", component: <></> },
   { title: "Countdown Timer", component: <CountDownTimer /> },
-  { title: "Data Pagination", component: <></> },
+  { title: "Data Pagination", component: <Pagination /> },
 ];
 
 function App() {
